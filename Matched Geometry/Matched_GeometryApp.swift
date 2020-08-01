@@ -11,7 +11,7 @@ import SwiftUI
 struct Matched_GeometryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabbedView()
         }
     }
 }

@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		90B49DF024D3523600A14A82 /* Matched_GeometryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B49DEF24D3523600A14A82 /* Matched_GeometryApp.swift */; };
-		90B49DF224D3523600A14A82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B49DF124D3523600A14A82 /* ContentView.swift */; };
+		90B49DF224D3523600A14A82 /* Sample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B49DF124D3523600A14A82 /* Sample3.swift */; };
 		90B49DF424D3523700A14A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B49DF324D3523700A14A82 /* Assets.xcassets */; };
 		90B49DF724D3523700A14A82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B49DF624D3523700A14A82 /* Preview Assets.xcassets */; };
+		90B49DFF24D3707000A14A82 /* Sample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B49DFE24D3707000A14A82 /* Sample1.swift */; };
+		90B49E0124D3714A00A14A82 /* Sample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B49E0024D3714A00A14A82 /* Sample2.swift */; };
+		90B49E0324D372D200A14A82 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B49E0224D372D200A14A82 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90B49DEC24D3523600A14A82 /* Matched Geometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matched Geometry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B49DEF24D3523600A14A82 /* Matched_GeometryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matched_GeometryApp.swift; sourceTree = "<group>"; };
-		90B49DF124D3523600A14A82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90B49DF124D3523600A14A82 /* Sample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample3.swift; sourceTree = "<group>"; };
 		90B49DF324D3523700A14A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90B49DF624D3523700A14A82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90B49DF824D3523700A14A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B49DFE24D3707000A14A82 /* Sample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1.swift; sourceTree = SOURCE_ROOT; };
+		90B49E0024D3714A00A14A82 /* Sample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2.swift; sourceTree = "<group>"; };
+		90B49E0224D372D200A14A82 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				90B49DEF24D3523600A14A82 /* Matched_GeometryApp.swift */,
-				90B49DF124D3523600A14A82 /* ContentView.swift */,
+				90B49E0224D372D200A14A82 /* TabView.swift */,
+				90B49DFE24D3707000A14A82 /* Sample1.swift */,
+				90B49E0024D3714A00A14A82 /* Sample2.swift */,
+				90B49DF124D3523600A14A82 /* Sample3.swift */,
 				90B49DF324D3523700A14A82 /* Assets.xcassets */,
 				90B49DF824D3523700A14A82 /* Info.plist */,
 				90B49DF524D3523700A14A82 /* Preview Content */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B49DF224D3523600A14A82 /* ContentView.swift in Sources */,
+				90B49E0324D372D200A14A82 /* TabView.swift in Sources */,
+				90B49DFF24D3707000A14A82 /* Sample1.swift in Sources */,
+				90B49E0124D3714A00A14A82 /* Sample2.swift in Sources */,
+				90B49DF224D3523600A14A82 /* Sample3.swift in Sources */,
 				90B49DF024D3523600A14A82 /* Matched_GeometryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
